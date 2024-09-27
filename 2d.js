@@ -5,6 +5,9 @@ let d = ages.map((item)=> {
     if(item<70){
         return item*2;
     }
+    else {
+        return item;
+    }
 })
 
 console.group(d);
